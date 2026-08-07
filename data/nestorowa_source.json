@@ -1,0 +1,619 @@
+{
+  "arrays": {
+    "alignment_metric_names": {
+      "dtype": "<U23",
+      "empty_string_count": 0,
+      "npy_sha256": "4de53f9bc3724161c9b65559bdbc6efaf5ae1dc175a80a1c2cb940afe4f6ea0c",
+      "shape": [
+        5
+      ]
+    },
+    "alignment_metrics": {
+      "dtype": "<f8",
+      "finite_max": 27607705.0,
+      "finite_min": 0.0,
+      "nan_count": 0,
+      "npy_sha256": "6eb5df8a0d28b07e12c49b160e4184b8bf6209437dd770d1a6518f7ea02acc32",
+      "shape": [
+        1656,
+        5
+      ]
+    },
+    "all_cell_names": {
+      "dtype": "<U10",
+      "empty_string_count": 0,
+      "npy_sha256": "55674dd3095673d02501b63a79eb39ba15ba7d6c6e37a8c31d10c6314058c0ae",
+      "shape": [
+        1920
+      ]
+    },
+    "all_detected_genes": {
+      "dtype": "<i8",
+      "max": 21606,
+      "min": 4711,
+      "npy_sha256": "66253536604609819adf3ba16d8843ae34404c838248ccb08fb37b07163a61ee",
+      "shape": [
+        1920
+      ]
+    },
+    "all_ercc_counts": {
+      "dtype": "<i8",
+      "max": 4837831,
+      "min": 774,
+      "npy_sha256": "e83c19a5e676fc10ca96e3d8fd60d25fe6359456e2b9b080a5c14b0d3ee0936b",
+      "shape": [
+        1920
+      ]
+    },
+    "all_ercc_percent": {
+      "dtype": "<f8",
+      "finite_max": 98.88725647098045,
+      "finite_min": 1.1539565447155105,
+      "nan_count": 0,
+      "npy_sha256": "8e84e8a042f873f89dd9b01527fd2c935ef5557287b9db20212a0b8b6c77d88d",
+      "shape": [
+        1920
+      ]
+    },
+    "all_library_size": {
+      "dtype": "<i8",
+      "max": 35630659,
+      "min": 11699,
+      "npy_sha256": "b6ee64e1f1e2b38e871fed23ab542e9abf001ab23998149fad64b57db9aedc22",
+      "shape": [
+        1920
+      ]
+    },
+    "all_qc_high_ercc": {
+      "dtype": "|b1",
+      "npy_sha256": "f7bba6bfa85477d450650dea46a78bd504b1e4a3afe2de011190ff180c142a9a",
+      "shape": [
+        1920
+      ],
+      "true_count": 241
+    },
+    "all_qc_keep": {
+      "dtype": "|b1",
+      "npy_sha256": "3b3c03f8b57f799db22fd67fe2a189471a25d0a5e35e5cef47657d900d77eedc",
+      "shape": [
+        1920
+      ],
+      "true_count": 1656
+    },
+    "all_qc_low_detected": {
+      "dtype": "|b1",
+      "npy_sha256": "4af884ea48acf7a4f596f730e14b721a3d6051880f0bd71647c7e4301fcecead",
+      "shape": [
+        1920
+      ],
+      "true_count": 28
+    },
+    "all_qc_low_library": {
+      "dtype": "|b1",
+      "npy_sha256": "1ac683e9012824d2875e82614af8a1f36768b4996c067255318f4e250e6192b1",
+      "shape": [
+        1920
+      ],
+      "true_count": 146
+    },
+    "broad": {
+      "dtype": "<U5",
+      "empty_string_count": 15,
+      "npy_sha256": "da408ecac1b9826036c4e7b23d298a53d82c7d3a284bc2526cc6b0cbafc43a41",
+      "shape": [
+        1656
+      ]
+    },
+    "broad_mpp": {
+      "dtype": "<U5",
+      "empty_string_count": 1330,
+      "npy_sha256": "077a63d7511cd7f6acb5a7f9334fc9c5639c2dd6fc1824bcf8f4f4e1fb0fe970",
+      "shape": [
+        1656
+      ]
+    },
+    "cell_names": {
+      "dtype": "<U10",
+      "empty_string_count": 0,
+      "npy_sha256": "9ca5732d6012f33703957d5df5ed2ccb296d1d9a8c0f9d17fd2e4f6ae5b969c3",
+      "shape": [
+        1656
+      ]
+    },
+    "detected_genes": {
+      "dtype": "<i8",
+      "max": 21606,
+      "min": 7644,
+      "npy_sha256": "b3018288bf6ff0a3223398daad924e6efd6244b7e197d87b86e607f1125e5d79",
+      "shape": [
+        1656
+      ]
+    },
+    "diffusion": {
+      "dtype": "<f8",
+      "finite_max": 0.0742569643074286,
+      "finite_min": -0.0617337626066949,
+      "nan_count": 651,
+      "npy_sha256": "b4b98adc1630114046378864bc6a7e4a4abd9574c7c31619ddfb5c19d96ccb32",
+      "shape": [
+        1656,
+        3
+      ]
+    },
+    "diffusion_names": {
+      "dtype": "<U3",
+      "empty_string_count": 0,
+      "npy_sha256": "a1333bf428d1dd6be62dedb2c654f683727ce370c740ca650da1ee3b9f843e8d",
+      "shape": [
+        3
+      ]
+    },
+    "ercc_counts": {
+      "dtype": "<i8",
+      "max": 3918028,
+      "min": 5075,
+      "npy_sha256": "8fae36e7566c45f3f656ef1adc93acb16f60940ed283017cdf193305fe2a8267",
+      "shape": [
+        1656
+      ]
+    },
+    "ercc_percent": {
+      "dtype": "<f8",
+      "finite_max": 34.67501712018321,
+      "finite_min": 1.1539565447155105,
+      "nan_count": 0,
+      "npy_sha256": "8950af21d30ab7492a1cef176b34ab939a6a5444418488a11a16b9c1366d7ffb",
+      "shape": [
+        1656
+      ]
+    },
+    "eslam": {
+      "dtype": "|b1",
+      "npy_sha256": "fc6dc451b805465b88912d2881ef43c1af5d9237b9c65a44fb97e4e42337eba4",
+      "shape": [
+        1656
+      ],
+      "true_count": 35
+    },
+    "facs": {
+      "dtype": "<f8",
+      "finite_max": 53869.5089004408,
+      "finite_min": -0.156810490227494,
+      "nan_count": 2260,
+      "npy_sha256": "ce8c342373fe0d7eff5f2ffb062745ed5eaa9bc0465c7cbb4d167ed33531ab42",
+      "shape": [
+        1656,
+        10
+      ]
+    },
+    "facs_names": {
+      "dtype": "<U5",
+      "empty_string_count": 0,
+      "npy_sha256": "ef82f5ffd14628573432d19989378e7e196340bef78a9420f6ad24af2923a4bd",
+      "shape": [
+        10
+      ]
+    },
+    "fine": {
+      "dtype": "<U5",
+      "empty_string_count": 453,
+      "npy_sha256": "498741b8dd7d642fcd978f002325537fb1b02e2b747f6df7b5272f0288d29d78",
+      "shape": [
+        1656
+      ]
+    },
+    "fine_mpp": {
+      "dtype": "<U5",
+      "empty_string_count": 1524,
+      "npy_sha256": "dc64a489d90fe6cb7e747b4a15fa3980ff77ece02c63c9770f082946da61c3b9",
+      "shape": [
+        1656
+      ]
+    },
+    "gate": {
+      "dtype": "<U6",
+      "empty_string_count": 0,
+      "npy_sha256": "f2e35e641fbb5759674d72ecc73bb410eb53d7ed75fdd7f6fb4069ca6f2f8384",
+      "shape": [
+        1656
+      ]
+    },
+    "hsc1": {
+      "dtype": "|b1",
+      "npy_sha256": "575ddf03045deeb0a47c2c4d3789fcc64d637ab4e12d95133a6d40937003bbbe",
+      "shape": [
+        1656
+      ],
+      "true_count": 115
+    },
+    "library_size": {
+      "dtype": "<i8",
+      "max": 35630659,
+      "min": 63560,
+      "npy_sha256": "d2e9eda6f127267e260681bf0ad58cacff0c4eb82cf229ded992849274a9e141",
+      "shape": [
+        1656
+      ]
+    },
+    "projected": {
+      "dtype": "|b1",
+      "npy_sha256": "95aa2381a89acdc653d79f676b1135818b573b4d227a015a2d3c6e0552bc82f2",
+      "shape": [
+        1656
+      ],
+      "true_count": 162
+    },
+    "qc_high_ercc": {
+      "dtype": "|b1",
+      "npy_sha256": "9729ec4e7ab52e499fa6b0285f7b26d2effbd3640f3e57bccf68e5492fa51229",
+      "shape": [
+        1656
+      ],
+      "true_count": 0
+    },
+    "qc_keep": {
+      "dtype": "|b1",
+      "npy_sha256": "73b1ccd53da0077852146fe26bccbfd2b039d02f3a35b12a9ac136f1bfd89b66",
+      "shape": [
+        1656
+      ],
+      "true_count": 1656
+    },
+    "qc_low_detected": {
+      "dtype": "|b1",
+      "npy_sha256": "9729ec4e7ab52e499fa6b0285f7b26d2effbd3640f3e57bccf68e5492fa51229",
+      "shape": [
+        1656
+      ],
+      "true_count": 0
+    },
+    "qc_low_library": {
+      "dtype": "|b1",
+      "npy_sha256": "9729ec4e7ab52e499fa6b0285f7b26d2effbd3640f3e57bccf68e5492fa51229",
+      "shape": [
+        1656
+      ],
+      "true_count": 0
+    },
+    "rna_hvg_detection_count": {
+      "dtype": "<i8",
+      "max": 1656,
+      "min": 863,
+      "npy_sha256": "620581d7cc5c5c945e7c92f935850f611c803dd70d5538e1b6775e17128f288d",
+      "shape": [
+        2000
+      ]
+    },
+    "rna_hvg_names": {
+      "dtype": "<U18",
+      "empty_string_count": 0,
+      "npy_sha256": "4ffebfceabb52905eb3fac4641d2d5242543939dcb957a83fb3bc279075f05c1",
+      "shape": [
+        2000
+      ]
+    },
+    "rna_hvg_variance": {
+      "dtype": "<f8",
+      "finite_max": 7.316729253030413,
+      "finite_min": 4.076852516223649,
+      "nan_count": 0,
+      "npy_sha256": "811d73aeba7cab3073c16d466b3ef13662be373ac201255def94b05def82d7f7",
+      "shape": [
+        2000
+      ]
+    },
+    "rna_pc_explained_variance_ratio": {
+      "dtype": "<f8",
+      "finite_max": 0.10122172822223466,
+      "finite_min": 0.00392991072161314,
+      "nan_count": 0,
+      "npy_sha256": "6dd9cf7405b734695d5537f0ecdfe401fc0c361d05d6f3cfc2179282af6efe51",
+      "shape": [
+        9
+      ]
+    },
+    "rna_pc_names": {
+      "dtype": "<U3",
+      "empty_string_count": 0,
+      "npy_sha256": "14129d8e5c4c9b2300d4f329fed6d58f840db21491c2dd93ec9d6dcba2764651",
+      "shape": [
+        9
+      ]
+    },
+    "rna_pcs": {
+      "dtype": "<f8",
+      "finite_max": 4.697899555951704,
+      "finite_min": -4.479230417365775,
+      "nan_count": 0,
+      "npy_sha256": "703c30a4d54a5485cd932ddeb3341019103e928c45f759606b8bd5fd1252e11d",
+      "shape": [
+        1656,
+        9
+      ]
+    },
+    "rna_size_factor": {
+      "dtype": "<f8",
+      "finite_max": 28.366902336623635,
+      "finite_min": 0.05060249692591424,
+      "nan_count": 0,
+      "npy_sha256": "bb033646456e92bf5838ac6f91a4ee124b9bc9ff6f65817d220539e0e62ef0ec",
+      "shape": [
+        1656
+      ]
+    }
+  },
+  "artifact": {
+    "array_count": 39,
+    "bytes": 399179,
+    "checksum_definition": "The artifact SHA-256 covers the complete deterministic NPZ. Each array's npy_sha256 covers its pickle-free NPY member bytes.",
+    "filename": "nestorowa_bmts_input.npz",
+    "sha256": "bba96dd4a725990fab0a54cde49571bf97316466d85e6595dd47864442fee302"
+  },
+  "dataset": {
+    "bioconductor_version": "3.19",
+    "genome": [
+      "GRCm38"
+    ],
+    "license": "CC0",
+    "license_reference": "https://bioconductor.org/packages/release/data/experiment/html/scRNAseq.html",
+    "loader": "scrnaseq.fetch_dataset",
+    "maintainer_email": "infinite.monkeys.with.keyboards@gmail.com",
+    "maintainer_name": "Aaron Lun",
+    "name": "nestorowa-hsc-2016",
+    "object_dimensions": {
+      "author_diffusion_dimensions": 3,
+      "ercc_features": 92,
+      "facs_features": 10,
+      "initial_cells": 1920,
+      "rna_features": 46078
+    },
+    "package": "scRNAseq",
+    "sources": [
+      {
+        "id": "GSE81682",
+        "provider": "GEO"
+      },
+      {
+        "id": "27365425",
+        "provider": "PubMed"
+      },
+      {
+        "id": "http://blood.stemcells.cam.ac.uk/data",
+        "provider": "URL",
+        "version": "2024-02-23"
+      }
+    ],
+    "taxonomy_id": [
+      "10090"
+    ],
+    "title": "A single-cell resolution map of mouse hematopoietic stem and progenitor cell differentiation",
+    "upstream_registry_manifest": {
+      "checksum_algorithm": "MD5, as supplied by ArtifactDB/gypsum",
+      "entries": {
+        "_bioconductor.json": {
+          "link": {
+            "asset": "nestorowa-hsc-2016",
+            "path": "_bioconductor.json",
+            "project": "scRNAseq",
+            "version": "2023-12-19"
+          },
+          "md5sum": "8c5c59da525c580d588b06628ce08a2c",
+          "size": 3786
+        },
+        "alternative_experiments/0/assays/0/array.h5": {
+          "link": {
+            "asset": "nestorowa-hsc-2016",
+            "path": "alternative_experiments/0/assays/0/array.h5",
+            "project": "scRNAseq",
+            "version": "2023-12-19"
+          },
+          "md5sum": "07c9b7d987821646ad7f3f39455889d6",
+          "size": 219260
+        },
+        "alternative_experiments/1/assays/0/array.h5": {
+          "link": {
+            "asset": "nestorowa-hsc-2016",
+            "path": "alternative_experiments/1/assays/0/array.h5",
+            "project": "scRNAseq",
+            "version": "2023-12-19"
+          },
+          "md5sum": "20837ded26a0cbe97060f7b685535acb",
+          "size": 119499
+        },
+        "assays/0/matrix.h5": {
+          "link": {
+            "asset": "nestorowa-hsc-2016",
+            "path": "assays/0/matrix.h5",
+            "project": "scRNAseq",
+            "version": "2023-12-19"
+          },
+          "md5sum": "d6716228bb273b42ff147ec32739dfbb",
+          "size": 70211257
+        },
+        "column_data/basic_columns.h5": {
+          "link": {
+            "asset": "nestorowa-hsc-2016",
+            "path": "column_data/basic_columns.h5",
+            "project": "scRNAseq",
+            "version": "2023-12-19"
+          },
+          "md5sum": "85ac08647044fc6fdee251f23c9f9b8b",
+          "size": 35429
+        },
+        "column_data/other_columns/8/basic_columns.h5": {
+          "link": {
+            "asset": "nestorowa-hsc-2016",
+            "path": "column_data/other_columns/8/basic_columns.h5",
+            "project": "scRNAseq",
+            "version": "2023-12-19"
+          },
+          "md5sum": "f5341f091f815603a288ae6d0b64446c",
+          "size": 47955
+        },
+        "reduced_dimensions/0/array.h5": {
+          "link": {
+            "asset": "nestorowa-hsc-2016",
+            "path": "reduced_dimensions/0/array.h5",
+            "project": "scRNAseq",
+            "version": "2023-12-19"
+          },
+          "md5sum": "ad2be18bf87d71c9ba0148da4b7e31f2",
+          "size": 44653
+        }
+      }
+    },
+    "version": "2024-04-18"
+  },
+  "metadata": {
+    "author_label_counts": {
+      "broad": {
+        "<missing>": 15,
+        "CMP": 310,
+        "GMP": 118,
+        "LMPP": 246,
+        "LTHSC": 287,
+        "MEP": 354,
+        "MPP": 326
+      },
+      "broad_mpp": {
+        "<missing>": 1330,
+        "MPP1": 57,
+        "MPP2": 25,
+        "MPP3": 148,
+        "STHSC": 96
+      },
+      "fine": {
+        "<missing>": 453,
+        "CMP": 214,
+        "GMP": 53,
+        "LMPP": 195,
+        "LTHSC": 287,
+        "MEP": 225,
+        "MPP": 229
+      },
+      "fine_mpp": {
+        "<missing>": 1524,
+        "MPP1": 26,
+        "MPP2": 11,
+        "MPP3": 60,
+        "STHSC": 35
+      },
+      "gate": {
+        "HSPC": 693,
+        "LT-HSC": 170,
+        "Prog": 793
+      }
+    },
+    "diffusion_cells_with_any_nan": 217,
+    "facs_nan_count_by_marker": {
+      "CD150": 226,
+      "CD16": 226,
+      "CD34": 226,
+      "CD48": 226,
+      "EPCR": 226,
+      "FSC.H": 226,
+      "Flk2": 226,
+      "Lin": 226,
+      "Sca1": 226,
+      "c.Kit": 226
+    },
+    "missing_numeric_encoding": "Masked or unavailable FACS/diffusion values are encoded as NaN.",
+    "missing_string_encoding": "Missing author annotations are encoded as the empty string.",
+    "retained_cell_order": "Original SingleCellExperiment column order after applying qc_keep."
+  },
+  "qc": {
+    "cutoffs": {
+      "high_ercc": {
+        "mad": 7.8125781560379775,
+        "median": 11.23859977164361,
+        "threshold": 34.67633423975754
+      },
+      "low_detected": {
+        "mad_log": 0.1653601533709691,
+        "median_log": 9.376363152213361,
+        "threshold_log": 8.880282692100455,
+        "threshold_original_scale": 7188.822671962189
+      },
+      "low_library": {
+        "mad_log": 0.9702387513053669,
+        "median_log": 13.913391967595238,
+        "threshold_log": 11.002675713679139,
+        "threshold_original_scale": 60034.56229927733
+      }
+    },
+    "detected_genes": "Number of endogenous genes with positive counts; lower-tail cutoff on log values.",
+    "ercc_percent": "100 * ERCC counts / (endogenous RNA counts + ERCC counts); upper-tail cutoff on the original percentage scale.",
+    "expected_official_counts": {
+      "discarded_union": 264,
+      "high_ercc": 241,
+      "initial": 1920,
+      "low_detected": 28,
+      "low_library": 146,
+      "retained": 1656
+    },
+    "library_size": "Sum of endogenous RNA counts; lower-tail cutoff on log values.",
+    "mad_scale": 1.4826,
+    "method": "Equivalent to scater::perCellQCMetrics followed by quickPerCellQC(stats, percent_subsets='altexps_ERCC_percent').",
+    "nmads": 3.0,
+    "observed_counts": {
+      "discarded_union": 264,
+      "high_ercc": 241,
+      "initial": 1920,
+      "low_detected": 28,
+      "low_library": 146,
+      "retained": 1656
+    },
+    "overlap_counts": {
+      "all_three": 15,
+      "low_detected_and_high_ercc": 15,
+      "low_library_and_high_ercc": 125,
+      "low_library_and_low_detected": 26
+    },
+    "reference_workflow": "https://bioconductor.org/books/3.21/OSCA.workflows/nestorowa-mouse-hsc-smart-seq2.html"
+  },
+  "rna_preprocessing": {
+    "cells": "The 1,656 cells retained by the reproduced official QC.",
+    "eligible_gene_count": 35915,
+    "explained_variance_ratio": [
+      0.10122172822223466,
+      0.03448380363142376,
+      0.019075159071852525,
+      0.010752148099437335,
+      0.008326313993402275,
+      0.007208201681865894,
+      0.006141456689329351,
+      0.003990775069330324,
+      0.00392991072161314
+    ],
+    "hvg_count": 2000,
+    "hvg_selection": "Top genes by population variance of log-normalized expression; ties are broken by original feature order.",
+    "minimum_expressing_cells": 10,
+    "normalization": "Each endogenous count column is divided by its library-size factor and scaled to the median retained library size.",
+    "normalization_target_library_size": 1256064.5,
+    "pca": "sklearn.decomposition.PCA with full deterministic SVD; each component is sign-oriented by its largest absolute loading, then centered and scaled to population standard deviation one.",
+    "pca_dimensions": 9,
+    "transformation": "Natural log1p of library-normalized counts."
+  },
+  "schema_version": "1.0",
+  "software": {
+    "packages": {
+      "biocframe": "0.7.3",
+      "delayedarray": "0.6.2",
+      "gypsum-client": "0.2.0",
+      "h5py": "3.16.0",
+      "numpy": "2.3.5",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.17.0",
+      "scrnaseq": "0.3.1",
+      "singlecellexperiment": "0.6.4"
+    },
+    "python": "3.11.15",
+    "thread_environment": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    }
+  }
+}

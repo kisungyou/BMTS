@@ -1,0 +1,464 @@
+{
+  "study1": {
+    "within": {
+      "pairs": 1200,
+      "psm_comp_mean": 0.047272906023832016,
+      "psm_comp_sd": 0.0905137393661122,
+      "bmts_mean": 0.07885023841498033,
+      "bmts_sd": 0.1578157561257967,
+      "median_ci_width": 0.02881760899162414,
+      "p_t0_2p4_mean": 1.0
+    },
+    "near_cross": {
+      "pairs": 1250,
+      "psm_comp_mean": 0.9514314355659154,
+      "psm_comp_sd": 0.09308781456877512,
+      "bmts_mean": 1.7744871852732078,
+      "bmts_sd": 0.21970582848157338,
+      "median_ci_width": 0.4282854901058578,
+      "p_t0_2p4_mean": 1.0
+    },
+    "distant_cross": {
+      "pairs": 2500,
+      "psm_comp_mean": 0.9999999999938259,
+      "psm_comp_sd": 5.248692172297553e-11,
+      "bmts_mean": 5.992786327720154,
+      "bmts_sd": 1.2635441411783208,
+      "median_ci_width": 0.4800521500789463,
+      "p_t0_2p4_mean": 0.0
+    },
+    "M": 300,
+    "n": 100,
+    "psm_estimator": "Rao-Blackwellized conditional co-clustering probabilities",
+    "t0_within": 0.8,
+    "t0_near": 2.4,
+    "params": {
+      "global_seed": 20260703,
+      "sampler_seed": 2307,
+      "fit_order_seed": 2308,
+      "n_iter": 1800,
+      "burn": 600,
+      "thin": 4,
+      "alpha": 1.0,
+      "prior_var": 100.0,
+      "sigma": 0.45,
+      "n_per_component": 25
+    },
+    "selected_flow_pairs": {
+      "near_indices": [
+        53,
+        72
+      ],
+      "near_psm_complement": 0.9957875203905557,
+      "near_posterior_mean_bmts": 1.9689224317256504,
+      "far_indices": [
+        30,
+        53
+      ],
+      "far_psm_complement": 0.9999999994326486,
+      "far_posterior_mean_bmts": 4.136356669797233
+    }
+  },
+  "study1_misspecified_K2": {
+    "within": {
+      "pairs": 1200,
+      "psm_comp_mean": 6.88338275267597e-17,
+      "bmts_mean": 6.321758852362178e-16,
+      "median_ci_width": 6.536926139068848e-52
+    },
+    "near_cross": {
+      "pairs": 1250,
+      "psm_comp_mean": 6.88338275267597e-17,
+      "bmts_mean": 6.3334728087399105e-16,
+      "median_ci_width": 2.0470729796867617e-35
+    },
+    "distant_cross": {
+      "pairs": 2500,
+      "psm_comp_mean": 1.0,
+      "bmts_mean": 5.995719242779735,
+      "median_ci_width": 0.27467391653427153
+    },
+    "M": 200,
+    "psm_estimator": "Rao-Blackwellized conditional co-clustering probabilities",
+    "params": {
+      "sampler_seed": 3911,
+      "n_iter": 1200,
+      "burn": 400,
+      "thin": 4,
+      "alpha": 1.0,
+      "prior_var": 100.0,
+      "K_fit": 2
+    }
+  },
+  "study2": {
+    "n": 80,
+    "n_per_subgroup": 40,
+    "subgroup_means": [
+      [
+        -1.4,
+        0.0
+      ],
+      [
+        1.4,
+        0.0
+      ]
+    ],
+    "subgroup_sd": [
+      0.25,
+      0.25
+    ],
+    "reference_mean": [
+      -0.020913998926079858,
+      -0.02580827818085646
+    ],
+    "reference_covariance": [
+      [
+        4.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.25
+      ]
+    ],
+    "fixed_theta": true,
+    "component_only_within_mean": 0.0,
+    "component_only_between_mean": 0.0,
+    "residual_within_mean": 0.5679825722021284,
+    "residual_between_mean": 1.5337049246187349,
+    "residual_within_sd": 0.3670672388011717,
+    "residual_between_sd": 0.21367204403635584,
+    "general_residual_lp_check_value": 1.861514618839478,
+    "general_residual_lp_check_closed_form": 1.861514618839478
+  },
+  "iris": {
+    "M": 300,
+    "psm_estimator": "Rao-Blackwellized conditional co-clustering probabilities",
+    "t0": 2.3298997686661598,
+    "t0_rule": "midpoint of largest gap in sorted off-diagonal posterior mean BMTS values",
+    "t0_gap_low": 1.6867420540894507,
+    "t0_gap_high": 2.973057483242869,
+    "t0_gap_width": 1.2863154291534185,
+    "alpha": 0.8,
+    "species_names": [
+      "setosa",
+      "versicolor",
+      "virginica"
+    ],
+    "within_species": {
+      "pairs": 3675,
+      "psm_comp_mean": 0.17062336637055883,
+      "bmts_mean": 0.25687689859742335,
+      "median_ci_width": 0.08423034953544578,
+      "p_t0_mean": 1.0
+    },
+    "versicolor_virginica": {
+      "pairs": 2500,
+      "psm_comp_mean": 0.7002961494938365,
+      "bmts_mean": 1.1462245100853716,
+      "median_ci_width": 0.6315045217910755,
+      "p_t0_mean": 1.0
+    },
+    "setosa_other": {
+      "pairs": 5000,
+      "psm_comp_mean": 0.9999966047652732,
+      "bmts_mean": 3.42256106259949,
+      "median_ci_width": 0.3856476873097423,
+      "p_t0_mean": 0.0
+    },
+    "params": {
+      "data": "Fisher iris data as distributed with scikit-learn",
+      "n": 150,
+      "K": 3,
+      "sampler_seed": 5179,
+      "fit_order_seed": 5181,
+      "n_iter": 1500,
+      "burn": 600,
+      "thin": 3,
+      "alpha": 1.0,
+      "prior_var": 25.0,
+      "fixed_common_covariance": [
+        [
+          0.2577868747841599,
+          0.12637769655272701,
+          0.08369183635355382,
+          0.03710705683232598
+        ],
+        [
+          0.12637769655272701,
+          0.48991778217125176,
+          0.024147726733778078,
+          0.051503117788662206
+        ],
+        [
+          0.08369183635355382,
+          0.024147726733778078,
+          0.08128803604829313,
+          0.06612524132676159
+        ],
+        [
+          0.03710705683232598,
+          0.051503117788662206,
+          0.06612524132676159,
+          0.1261671461782668
+        ]
+      ]
+    }
+  },
+  "nestorowa_hspc": {
+    "M": 200,
+    "candidate_pairs": 33522,
+    "facs_evaluation_cells": 1430,
+    "facs_missing_cells_excluded": 226,
+    "primary_associations": {
+      "entropy_facs_spearman": 0.10082412356128505,
+      "entropy_asymptotic_p": 0.0001339395990347499,
+      "entropy_stratified_bootstrap_95": [
+        0.04972201660228837,
+        0.15565651857624213
+      ],
+      "entropy_stratified_permutation_p": 0.006993006993006993,
+      "local_width_facs_spearman": 0.10121339516440928,
+      "local_width_asymptotic_p": 0.00012611669616116746,
+      "local_width_stratified_bootstrap_95": [
+        0.051007023641597066,
+        0.1567552107427938
+      ],
+      "local_width_stratified_permutation_p": 0.003996003996003996,
+      "qc_adjusted_entropy_facs_spearman": 0.08729811630660345,
+      "qc_adjusted_entropy_asymptotic_p": 0.0009510127391747897,
+      "qc_adjusted_local_width_facs_spearman": 0.09299732880747123,
+      "qc_adjusted_local_width_asymptotic_p": 0.0004294630669446875
+    },
+    "facs_boundary_quartile_groups": {
+      "low": {
+        "cells": 412,
+        "facs_mixing_median": 0.033333333333333326,
+        "entropy_median": 3.59953053984229e-07,
+        "entropy_percentile_median": 39.39577039274924,
+        "local_width_median": 3.239311467950756e-07,
+        "local_width_percentile_median": 41.57099697885196,
+        "local_mean_median": 2.7840202676543413e-07
+      },
+      "middle": {
+        "cells": 650,
+        "facs_mixing_median": 0.23333333333333328,
+        "entropy_median": 2.900591139228296e-06,
+        "entropy_percentile_median": 52.83987915407855,
+        "local_width_median": 1.449388093988091e-06,
+        "local_width_percentile_median": 53.111782477341386,
+        "local_mean_median": 1.3855664064976736e-06
+      },
+      "high": {
+        "cells": 368,
+        "facs_mixing_median": 0.4666666666666667,
+        "entropy_median": 3.664586834245515e-06,
+        "entropy_percentile_median": 54.38066465256798,
+        "local_width_median": 1.6044466519815614e-06,
+        "local_width_percentile_median": 53.625377643504535,
+        "local_mean_median": 1.4018735328136245e-06
+      }
+    },
+    "conventional_status": {
+      "conventionally_gated": {
+        "cells": 1001,
+        "facs_mixing_median": 0.19999999999999996,
+        "entropy_median": 1.9663344354651056e-06,
+        "entropy_percentile_median": 49.96978851963746,
+        "local_width_median": 9.258603768103058e-07,
+        "local_width_percentile_median": 49.66767371601208,
+        "local_mean_median": 8.18885155240423e-07
+      },
+      "fine_gate_unassigned": {
+        "cells": 429,
+        "facs_mixing_median": 0.30000000000000004,
+        "entropy_median": 2.2867742880015744e-06,
+        "entropy_percentile_median": 50.63444108761329,
+        "local_width_median": 1.5580585568386596e-06,
+        "local_width_percentile_median": 53.41389728096677,
+        "local_mean_median": 1.4363179161591688e-06
+      }
+    },
+    "sensitivity": {
+      "mixture_K": {
+        "4": {
+          "retained_draws": 200,
+          "entropy_facs_spearman": 0.10082412356128505
+        },
+        "3": {
+          "retained_draws": 100,
+          "entropy_facs_spearman": 0.18071636443046227
+        },
+        "5": {
+          "retained_draws": 100,
+          "entropy_facs_spearman": 0.21343701722839314
+        }
+      },
+      "local_neighborhood": {
+        "10": 0.09790260097237438,
+        "20": 0.10121339516440928,
+        "30": 0.10417484499700104
+      },
+      "facs_neighborhood": {
+        "10": {
+          "entropy_spearman": 0.08711521865630845,
+          "local_width_spearman": 0.08394828421295855
+        },
+        "20": {
+          "entropy_spearman": 0.09876937197747963,
+          "local_width_spearman": 0.0953230449754235
+        },
+        "30": {
+          "entropy_spearman": 0.10082412356128505,
+          "local_width_spearman": 0.10121339516440928
+        }
+      }
+    },
+    "params": {
+      "data": "Nestorowa et al. (2016) mouse HSPCs, GSE81682",
+      "prepared_input": "data/nestorowa_bmts_input.npz",
+      "n": 1656,
+      "rna_pcs": 9,
+      "facs_markers": [
+        "FSC.H",
+        "CD34",
+        "CD16",
+        "c.Kit",
+        "EPCR",
+        "Flk2",
+        "CD150",
+        "CD48",
+        "Lin",
+        "Sca1"
+      ],
+      "facs_observed_cells": 1430,
+      "facs_missing_cells_excluded_from_evaluation": 226,
+      "K": 4,
+      "sampler_seed": 9271,
+      "fit_order_seed": 9270,
+      "n_iter": 1200,
+      "burn": 400,
+      "thin": 4,
+      "alpha": 1.0,
+      "prior_var": 25.0,
+      "fixed_common_covariance": [
+        [
+          0.21909802541805895,
+          0.17564092110047116,
+          0.039965250315166234,
+          0.012314942308804469,
+          -0.08524072601639664,
+          -0.10244264790857902,
+          -0.01378012311138047,
+          0.02982184114375646,
+          0.03318549056875249
+        ],
+        [
+          0.17564092110047116,
+          0.7358139393314416,
+          0.18504075199668105,
+          0.013664952545893852,
+          0.12322350633015552,
+          -0.26845086781131,
+          -0.05538846170483512,
+          0.08390737938280868,
+          -0.005917531380737139
+        ],
+        [
+          0.039965250315166234,
+          0.18504075199668105,
+          0.7119945916453382,
+          0.2979444080628937,
+          0.05443290837913355,
+          0.18033659625962184,
+          0.014476061397532835,
+          0.026706295202698828,
+          -0.01017938412497602
+        ],
+        [
+          0.012314942308804469,
+          0.013664952545893852,
+          0.2979444080628937,
+          0.5823336088135513,
+          -0.19133231251130425,
+          0.05664526775895156,
+          0.04374245211712447,
+          -0.14275742883374093,
+          0.011319160881026628
+        ],
+        [
+          -0.08524072601639664,
+          0.12322350633015552,
+          0.05443290837913355,
+          -0.19133231251130425,
+          0.9299301838377586,
+          0.11392878111787118,
+          0.036500237516191476,
+          -0.08540773468257787,
+          0.007709768159141223
+        ],
+        [
+          -0.10244264790857902,
+          -0.26845086781131,
+          0.18033659625962184,
+          0.05664526775895156,
+          0.11392878111787118,
+          0.735816379252099,
+          -0.06544264754523023,
+          0.10841567554817333,
+          0.004228226985452771
+        ],
+        [
+          -0.01378012311138047,
+          -0.05538846170483512,
+          0.014476061397532835,
+          0.04374245211712447,
+          0.036500237516191476,
+          -0.06544264754523023,
+          1.0366023827975217,
+          0.03103296710221319,
+          -0.00024307918425261004
+        ],
+        [
+          0.02982184114375646,
+          0.08390737938280868,
+          0.026706295202698828,
+          -0.14275742883374093,
+          -0.08540773468257787,
+          0.10841567554817333,
+          0.03103296710221319,
+          0.9821942410349029,
+          0.0019350618618033653
+        ],
+        [
+          0.03318549056875249,
+          -0.005917531380737139,
+          -0.01017938412497602,
+          0.011319160881026628,
+          0.007709768159141223,
+          0.004228226985452771,
+          -0.00024307918425261004,
+          0.0019350618618033653,
+          1.050795052691053
+        ]
+      ],
+      "candidate_rna_neighbors": 30,
+      "primary_local_neighbors": 20,
+      "primary_facs_neighbors": 30
+    }
+  },
+  "validation_checks": {
+    "full_cov_logpdf_max_abs_error": 1.7763568394002505e-15,
+    "conjugate_full_cov_mean_max_abs_error": 5.551115123125783e-17,
+    "conjugate_full_cov_cov_max_abs_error": 2.220446049250313e-16,
+    "conditional_coclustering_identity_max_abs_error": 1.1102230246251565e-16,
+    "common_cov_gaussian_w2_max_abs_error": 8.881784197001252e-16,
+    "dual_vs_primal_ot_max_abs_error": 7.771561172376096e-16,
+    "zero_one_ot_vs_tv_max_abs_error": 1.1102230246251565e-16,
+    "metric_triangle_max_positive_violation": 0.0,
+    "label_permutation_max_abs_error": 6.661338147750939e-16,
+    "residual_symmetry_abs_error": 0.0,
+    "residual_self_value": 0.0,
+    "residual_K1_reduction_abs_error": 0.0
+  }
+}
