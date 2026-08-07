@@ -1,6 +1,6 @@
 # Bayesian mixture transport signatures
 
-This folder is a notebook-first public companion to *Bayesian Mixture
+This repo is a notebook-first public companion to *Bayesian Mixture
 Transport Signatures for Uncertainty-Aware Observation Matching*. It contains
 the reusable BMTS routines, executable versions of the two simulations and two
 real-data experiments, a compact public HSPC derivative, and archived
@@ -57,13 +57,12 @@ The release was executed end to end with Python 3.11.15, NumPy 2.3.5, SciPy
 1.17.0, Matplotlib 3.10.8, scikit-learn 1.8.0, pandas 2.2.3, nbclient 0.11.0,
 and nbformat 5.10.4.
 
-## Author and license
+## License
 
-Kisung You is the sole author of this release. The BMTS software is distributed
-under the MIT License; see `LICENSE`. The included Nestorowa derivative retains
+The BMTS software is distributed under the MIT License; see `LICENSE`. The included Nestorowa derivative retains
 its separately documented CC0 source status.
 
-## Layout
+## Composition
 
 - `bmts.py` contains the public samplers, finite-metric transport routines,
   residual-aware extension, posterior summaries, data helpers, and the shared
